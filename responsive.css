@@ -1,0 +1,90 @@
+@media all and (max-width:1500px) {
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+}
+
+@media all and (max-width:1024px) {
+    .header{
+        padding: 20px 0;
+    }
+    .header-left{
+        width: 100%;
+        text-align: center;
+    }
+    .header-right{
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul {
+        width: 100%;
+        text-align: center;
+    }
+    
+
+}
+@media all and (max-width:768px) {
+    .header-right ul li a{
+        padding: 0 18px;
+        border: none;
+        line-height: 40px;
+    }
+    .service-item {
+        width: 95%;
+        padding: 40px 40px;
+        margin: 20px auto;
+        text-align: center;
+        float: none;
+    }
+    .blog-left-content {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+    .blog-left-notification {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        float: none;
+    }
+    .blog-left-notification ul li {
+        padding: 19px 10px;
+        font-size: 24px;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+        float: none;
+        font-size: 20px;
+    }
+    .footer-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .right {
+        text-align: center;
+    }
+}
+@media all and (max-width:576px) {
+    .banner{
+        padding: 120px 0;
+    }
+    .banner-caption h2{
+        font-size: 20px;
+        padding: 6px 9px;
+    }
+    .banner-caption h1 {
+        font-size: 25px;
+        width: 303px;
+        padding: 5px 0;
+    }
+}
